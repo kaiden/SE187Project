@@ -1,0 +1,31 @@
+#openInstaller Dry Run Answer File.  This File can be used as input to the openInstaller engine using the -a option.
+#Sat Feb 20 18:25:52 PST 2010
+RegistrationOptions.regoptions.CREATE_NEWACCT=CREATE_NEWACCT
+glassfish.Administration.HTTP_PORT=8080
+updatetool.Configuration.PROXY_PORT=
+glassfish.Administration.ADMIN_PASSWORD=Tr1gg3r65\!
+JDKSelection.directory.JDK_FROM_LIST_CHOICE=true
+RegistrationOptions.regoptions.SKIP_REGISTRATION=SKIP_REGISTRATION
+updatetool.Configuration.PROXY_HOST=
+SOAccountCreation.accountinfo.COUNTRY=
+InstallHome.directory.INSTALL_HOME=/home/adam/glassfishv3
+RegistrationOptions.regoptions.USE_EXISTINGACCT=USE_EXISTINGACCT
+SOAccountCreation.accountinfo.FIRSTNAME=
+updatetool.Configuration.ALLOW_UPDATE_CHECK=false
+glassfish.Administration.ADMIN_USER=admin
+JDKSelection.directory.JDK_LIST=/usr/lib/jvm/java-6-sun-1.6.0.15 (v. 1.6.0_15 by Sun Microsystems Inc.)
+SOAccountCreation.accountinfo.PASSWORD=
+SOAccountCreation.accountinfo.COMPANYNAME=
+JDKSelection.directory.HIDDEN_JDK=/usr/lib/jvm/java-6-sun-1.6.0.15
+SOAccountCreation.accountinfo.COUNTRY_DROP_DOWN=
+SOAccountCreation.accountinfo.REENTERPASSWORD=
+License.license.ACCEPT_LICENSE=0
+RegistrationOptions.regoptions.USERNAME=
+updatetool.Configuration.BOOTSTRAP_UPDATETOOL=false
+SOAccountCreation.accountinfo.LASTNAME=
+glassfish.Administration.ADMIN_PORT=4848
+RegistrationOptions.regoptions.USERPASSWORD=
+JDKSelection.directory.JDK_TYPED_IN_CHOICE=false
+SOAccountCreation.accountinfo.EMAIL=
+JDKSelection.directory.JDK_TYPE_IN=
+RegistrationOptions.regoptions.DUMMY_PROP=
