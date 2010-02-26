@@ -5,11 +5,15 @@
 This document sets forth a testing plan for testing aspects of Oracle's Glassfish V3 Java application server. Our team will test installation, configuration, deployment, administration GUI functionaly, and monitoring component peformance. 
 
 ## Scope
-
+The overall scope of the project focuses on the testing of Glassfish V3 in the following areas:
+* Installation and deployment of the Glassfish V3 product.
+* Functionality of the Admin GUI.
+* Diverse configurations of the Admin GUI.
+* Performance validation of Glassfish V3.
 ## Document's Purpose
 
 Our team has created this test plan as a roadmap for evaluating Glassfish V3 according to its documenation. 
-
+The usage of this document permits the team to ensure that major project-milestones are acheived in a timely manner.
 ## Test Criteria
 
 ### Installation and deployment
@@ -32,8 +36,8 @@ Our team has created this test plan as a roadmap for evaluating Glassfish V3 acc
 * asaadmin
   
 ### Peform adequate testing for diverse configurations
-
-* by product of Installation and admin gui testing ?
+* Silent installation mode with variation in the required fields of the answers file 
+* Various configurations within the admin gui
   
 ### Performance Validation 
 
@@ -92,16 +96,19 @@ x86 Computers
 This test plan defines the overall approach for testing the Glassfish V3 software component. 
 
 * Installation Testing
-  * 
+  * Run silent installer with different configurations, and verify the installation
 * Web Admin GUI
   *
 * Software Configuration
 * Performance
 
 ## Testing Tools & Techniques
-
+Using Ubuntu, either natively or running on a Virtual Machine, we will
+partition the product into mutliple domains of testable artifacts.
+We will also be using automation tools such as cucumber to ultimately
+automate the tests performed via manual testing. 
 ## Testing Environment
-
+We will be testing in a UNIX environment
 ## Unit Testing Plan
 
 ## System Testing Plan
@@ -111,12 +118,13 @@ This test plan defines the overall approach for testing the Glassfish V3 softwar
 # Appendix
 ***
 ## Schedule
-
+Adam, are you planning on using the spreadsheet format and attaching here?
 ## Test Case Template
-
+Charlie is sending this to the team...since I cannot push from my windows environment.  Please examine and modify if needbe
 ## Test Results Template
 
 
 # Revisions
   
 * 2010-02-23, Adam Hawkins
+* 2010-02-25, Charles Henry
