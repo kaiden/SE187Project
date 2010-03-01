@@ -15,7 +15,7 @@ The overall scope of the project focuses on the testing of Glassfish V3 in the f
 
 ## Document's Purpose
 
-Our team has created this test plan as a roadmap for evaluating Glassfish V3 according to its documentation. This document describes the functionality that we will test and give an overview of how. When the test report is turned in, use this document to verify them. Creating this document organizes the team and permits the team to ensure that major project-milestones are achieved in a timely manner.
+Our team has created this test plan as a roadmap for evaluating Glassfish V3 according to its documentation. This document describes the functionality of we will test and give an overview of how we will do so. When the test report is turned in, use this document to verify our work. Creating this document organizes the team and permits the team to ensure that major project-milestones are achieved in a timely manner.
 
 ## Test Criteria
 
@@ -69,7 +69,7 @@ The functional and non functional requirements will be tested. These functions w
 
 Test results will be compared expected expected results pulled from the Glassfish V3 documentation. A Test passes if the test results matches the expected results. Tests can be grouped into logical groups. A Test group will pass if all it's sub tests pass.
 
-A note on component configuration: It is impossible to test all possible configuration permutations. Our team will achieve adequate configuration cover through testing many different installation configurations and administrative configurations. The most common configurations will be covered. Achieved automated coverage of many different configurations may be difficult, so our team will rely on manual testing for more interesting configurations.
+A note on component configuration: It is impossible to test all possible configuration permutations. Our team will achieve adequate configuration coverage through testing many different installation configurations and administrative configurations. The most common configurations will be covered. Achieved automated coverage of many different configurations may be difficult, so our team will rely on manual testing for more interesting configurations.
 
 # Project Organization
 
@@ -90,11 +90,11 @@ A note on component configuration: It is impossible to test all possible configu
 
 ## Component Testing Process
 
-This section described a general overview of how we intend to make each deliverable.
+This section describes a general overview of how we intend to make each deliverable.
 
 After the completion of this document we will gather together to discuss test specifications. The test manager (Adam) will work with test engineer (David, Charles, and Carissa) to create tests that meet our specifications. Once test specifications are complete, the test engineers will code the tests. The manager will supervise the test code and make it is acceptable. The test manager will create the test environment and code to interact with Glassfish for testing installation and other aspects. 
 
-After the test engineers have completed coding their tests, they run them using the supplied test framework. If all tests pass they can push to the master repo for the test manager to review. If they tests are not adequate then the manager will work with the test engineers to ensure adequate testing.  After the test engineers have coded all tests, they will complete the manual test reports for that deliverable.
+After the test engineers have completed coding their tests, they run them using the supplied test framework. If all tests pass they can push to the master repo for the test manager to review. If their tests are not adequate then the manager will work with the test engineers to ensure adequate testing.  After the test engineers have coded all tests, they will complete the manual test reports for that deliverable.
 
 The test manager will work with the automation engineer to create an automated system for running the test suite. The test automation engineer will implement a system to programatically generate the reports found manual test report. Along with providing reports, the test automation engineer will also automate the test suite.
 
@@ -121,7 +121,7 @@ x86 Computers
 
 # Test Strategy & Approach
 
-This sections give an overview of the tools we will use to complete our tests.
+These sections give an overview of the tools we will use to complete our tests.
 
 ## Test Approach
 
@@ -172,7 +172,7 @@ We will be testing on Ubuntu Desktop 9.10 x86 using Virtual Box. The web admin G
 
 ## Handing Test Failures or Other Issues
 
-Test issues will arise during the project. If some test is not adequate, an issue will be created on Github's issue tracker and be assigned to an test engineer. The issue will stay unresolved until the test engineer completes it, or the test manager closes it. Github also has a built in bug tracker which we will use to report an bugs we find in GlassFish
+Test issues will arise during the project. If some test is not adequate, an issue will be created on Github's issue tracker and be assigned to an test engineer. The issue will stay unresolved until the test engineer completes it, or the test manager closes it. Github also has a built in bug tracker which we will use to report any bugs we find in GlassFish
 
 
 # Test Strategy and Approach
@@ -207,4 +207,4 @@ I'm not sure if these are required. Some group's didn't include them.
 * 2010-02-28, Adam Hawkins
 * 2010-02-25, Charles Henry  
 * 2010-02-23, Adam Hawkins
-
+* 2010-03-01, Charles Henry
